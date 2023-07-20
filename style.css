@@ -367,6 +367,15 @@ line-height: 25px; /* 166.667% */
     text-align: right;
 
 }
+.care-button{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #FF42A5;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: none;
+}
 .care-img{
     width: 725px;
     height: 600px;
