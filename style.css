@@ -1,10 +1,6 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
-.Favicon{
-    width: 100px;
-
-}
 
 /* navbar section */
 .navbar {
@@ -551,3 +547,122 @@ line-height: 25px; /* 166.667% */
 .hover-cont:hover .hover-text {
     opacity: 1;
 }
+/* responsibe */
+
+/* Responsive styles for screens with a maximum width of 430px */
+@media screen and (max-width: 430px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .navbar-left {
+      margin: 0;
+    }
+  
+    .navbar-right {
+      margin: 0;
+    }
+  
+    .navbar-icon {
+      margin-right: 0;
+    }
+  
+    .navbar-heading,
+    .navbar-heading:last-child {
+      margin: 5px 0;
+    }
+  
+    .us {
+      margin-top: 10px;
+    }
+  
+    .banner1 {
+      padding: 50px;
+    }
+  
+    .ban-icon {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .banner-icon {
+      margin-bottom: 20px;
+    }
+  
+    .banner-buttons {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    .banner-button1,
+    .banner-button2 {
+      margin: 10px 0;
+    }
+  
+    .banner2 {
+      flex-direction: column;
+    }
+  
+    .banner2-image {
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+  
+    .banner2-content {
+      text-align: center;
+      margin: 30px 0;
+    }
+  
+    .play-section {
+      flex-direction: column;
+    }
+  
+    .play-img {
+      margin: 30px 0;
+    }
+  
+    .play-img1,
+    .overlay-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .play-left {
+      margin: 0;
+    }
+  
+    .play-img2 {
+      margin: 30px 0;
+    }
+  
+    .overlay-image2 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .section3 {
+      padding: 20px;
+    }
+  
+    .sec3-images {
+      flex-direction: column;
+    }
+  
+    .sec3-image {
+      margin: 10px 0;
+    }
+  
+    .sec3-caption {
+      flex-direction: column;
+    }
+  
+    .footer-sec {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
