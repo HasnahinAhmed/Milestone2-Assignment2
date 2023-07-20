@@ -212,7 +212,7 @@
     justify-content: center;
     justify-content: space-evenly;
 
-    margin: 50px 0px 10px  0px;
+    margin: 50px 0px 10px 0px;
 }
 
 .sec3-image {
@@ -247,22 +247,110 @@
     font-weight: 400;
     line-height: 30px;
 }
+
+/* play instantly */
+/* section 1 */
+.play-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 100px 0px;
+}
+
+.play-left{
+
+    margin:0px 0px 0px 10px ;
+}
+
+.play-heading{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.play-pra{   
+    text-align: right;
+    color: #534C64;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: -20px;
+
+}
+
+
+.play-img {
+    position: relative;
+    margin: 10px 0px 0px 300px;
+  }
+  
+  .play-img1{
+    width: 360px;
+    height: 370px;
+  }
+  .overlay-image {
+    position: absolute;
+    top: 200px;
+    left: -90px;
+    width: 180px;
+    height: 220px;
+  }
+
+/* section 2 */
+.overlay-image2 {
+    position: absolute;
+    top: 250px;
+    right: -60px;
+    width: 150px;
+    height: 180px;
+  }
+.play-img2 {
+    position: relative;
+    margin: 10px 230px 0px 0px;
+  }
+  .play-heading2 {
+    text-align: left;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    color: #0B0223;
+}
+.play-pra2 {   
+    text-align: left;
+    color: #534C64;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: -20px;
+
+}
+.online{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* careers */
 .
 /* more game section */
 
-.more-game{
+.more-game {
 
     margin: 100px 50px 100px 50px;
 }
+
 .more-game img {
     width: 40px;
     height: 40px;
 
 }
-.more-game span{
-   margin: 10px 40px 10px 10px;
+
+.more-game span {
+    margin: 10px 40px 10px 10px;
 }
+
 .more1 {
     display: flex;
     justify-content: center;
@@ -287,7 +375,7 @@
     height: 400px; */
     padding: 20px;
     text-align: center;
-    margin: 40px 0px 0px -40px;
+    margin: 40px -8px -8px -40px;
 }
 
 .footer-sec {
