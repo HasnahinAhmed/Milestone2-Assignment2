@@ -333,12 +333,50 @@
 }
 
 /* careers */
+.care-sec{
+    display: flex;
+   justify-content: center; 
+   align-items: center;
+   margin: 0px -0px 40px -8px;
+   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.care-left{
+    color: #FFF;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding:  50px 0px 50px 150px;
+}
+.care-pragraph{
+    text-align: justify;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+}
+.care-pra{
+    display: flex;
+justify-content: space-between;
+color: #FFF;
+font-size: 15px;
+font-weight: 450;
+line-height: 25px; /* 166.667% */
+
+}
+.care-pra2{
+    text-align: right;
+
+}
+.care-img{
+    width: 725px;
+    height: 600px;
+}
 .
 /* more game section */
 
 .more-game {
-
     margin: 100px 50px 100px 50px;
+    background-color: #fffff0;
 }
 
 .more-game img {
